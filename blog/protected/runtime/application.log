@@ -1,0 +1,958 @@
+2014/06/17 11:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exmap".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('exmap')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exmap')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exmap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/exmap
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 11:53:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exmap".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('exmap')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exmap')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exmap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/exmap
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/exmap
+---
+2014/06/17 11:53:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exmap".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('exmap')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exmap')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exmap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/exmap
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 11:55:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exmap".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('exmap')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exmap')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exmap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/exmap
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 11:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exmap".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('exmap')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exmap')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exmap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/exmap
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/exmap
+---
+2014/06/17 11:56:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "exmap".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('exmap')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('exmap')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/exmap')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/exmap
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/exmap
+---
+2014/06/17 12:08:41 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "loadModel".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(99): CComponent->__call('loadModel', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(99): SiteController->loadModel()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionExamp()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('examp')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/examp')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/examp
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/post/index
+---
+2014/06/17 12:11:09 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "loadModel".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(99): CComponent->__call('loadModel', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(99): SiteController->loadModel()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionExamp()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('examp')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/examp')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/examp
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/post/index
+---
+2014/06/17 12:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/index?r=gii
+---
+2014/06/17 12:21:31 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php
+2014/06/17 12:21:33 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+2014/06/17 12:21:47 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+2014/06/17 12:21:51 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+2014/06/17 12:22:21 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:26)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+2014/06/17 12:23:07 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+2014/06/17 12:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/index?r=user/admin
+---
+2014/06/17 12:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/index?r=user
+---
+2014/06/17 12:26:05 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): PostController->renderFile()
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): PostController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): PostController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): PostController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): PostController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): PostController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php?r=user
+2014/06/17 12:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php(20): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): CController->render('index', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/demos/blog/index.php?r=user
+---
+2014/06/17 12:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php(20): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): CController->render('index', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/demos/blog/index.php
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php?r=user
+---
+2014/06/17 12:30:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php(20): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): CController->render('index', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/index')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/page?view=about
+---
+2014/06/17 12:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php(20): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): CController->render('index', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/index')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/index
+---
+2014/06/17 12:31:13 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:31:16 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:31:16 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:31:39 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:31:45 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:31:49 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:35:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\GiiModule.php(177): CWebUser->loginRequired()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(ModelGenerator), Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('code')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/code/...')
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii/demos/blog/index.php/gii/model/code/id/0
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/gii/model/index
+---
+2014/06/17 12:35:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in C:\xampp\htdocs\yii\framework\web\auth\CWebUser.php:394
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\gii\GiiModule.php(177): CWebUser->loginRequired()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(263): GiiModule->beforeControllerAction(Object(ModelGenerator), Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('code')
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/code/...')
+#4 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#6 {main}
+REQUEST_URI=/yii/demos/blog/index.php/gii/model/code/id/0
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/gii/model/index
+---
+2014/06/17 12:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\views\layouts\column2.php(20): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(136): CController->render('index', Array)
+#5 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/demos/blog/index.php
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/post/admin
+---
+2014/06/17 12:38:44 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:38:47 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:38:47 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:40:14 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:40:18 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:40:20 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:40:21 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:48:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/demos/blog/index.php/admin
+---
+2014/06/17 12:49:43 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(920): CModel->validate(NULL)
+#8 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(73): CActiveForm::validate(Object(LoginForm))
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:49:45 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "validatePassword".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('validatePasswor...', Array)
+#1 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): CActiveRecord->__call('validatePasswor...', Array)
+#2 C:\xampp\htdocs\yii\demos\blog\protected\components\UserIdentity.php(21): User->validatePassword('demo')
+#3 C:\xampp\htdocs\yii\demos\blog\protected\models\LoginForm.php(50): UserIdentity->authenticate()
+#4 C:\xampp\htdocs\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#5 C:\xampp\htdocs\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\xampp\htdocs\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(82): CModel->validate()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/login
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/17 12:50:14 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\demos\blog\protected\views\admin\user\index.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\yii\demos\blog\protected\controllers\admin\UserController.php(7): UserController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\demos\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/demos/blog/index.php/admin/user
+2014/06/18 09:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(82): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionUpdate()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/update')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/update
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/18 09:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\demos\blog\protected\controllers\PostController.php(82): PostController->loadModel()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): PostController->actionUpdate()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/update')
+#12 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/demos/blog/index.php/post/update
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/site/login
+---
+2014/06/18 12:25:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.uer" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModule.php(105): CComponent->__get('uer')
+#1 C:\xampp\htdocs\yii\demos\blog\protected\controllers\SiteController.php(99): CModule->__get('uer')
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionExamp()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('examp')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/examp')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\yii\demos\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/demos/blog/index.php/site/examp
+HTTP_REFERER=http://localhost/yii/demos/blog/index.php/post/index
+---
+2014/06/19 02:55:02 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "C:\xampp\htdocs\facebook-image\blog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in C:\xampp\htdocs\facebook-image\framework\web\CAssetManager.php:138
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 C:\xampp\htdocs\facebook-image\framework\zii\widgets\CListView.php(217): CAssetManager->publish('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(147): CListView->init()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 C:\xampp\htdocs\facebook-image\blog\protected\views\post\index.php(9): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\facebook-image\blog\protected\controllers\PostController.php(136): CController->render('index', Array)
+#11 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): PostController->actionIndex()
+#12 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\facebook-image\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\facebook-image\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\facebook-image\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\facebook-image\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\facebook-image\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\facebook-image\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('post/index')
+#22 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#24 {main}
+REQUEST_URI=/facebook-image/blog/index.php/post/index
+---
+2014/06/19 03:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 03:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 03:13:47 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.breadcrumbs" is not defined.' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\main.php(42): CComponent->__get('breadcrumbs')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(7): CController->render('index')
+#5 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#13 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 03:16:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post/index".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('post/index')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/post/index
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:20:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/index".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('member/index')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/member/index
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/index".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('member/index')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/member/index
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/index".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('member/index')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/member/index
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/19 03:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/index".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('member/index')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/member/index
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/19 03:44:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/showmember
+---
