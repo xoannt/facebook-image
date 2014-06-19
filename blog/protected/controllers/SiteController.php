@@ -6,9 +6,11 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
 		$this->render('index');
+		$facebook = YII::app()->facebook->getFacebook();
 	}
 	public function actionShowMember()
 	{
+			
 		$this->render('showmember');
 	}
 	public function actionShowImage()
@@ -17,7 +19,7 @@ class SiteController extends Controller
 	}
 	public function actionLogin()
 	{
-		echo "login facebook";
+		$this->redirect(Yii::app()->homeUrl);
 	}
 		
 }

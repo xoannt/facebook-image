@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.extensions.yiifacebook.*'
 	),
 	'modules'=>array(
         'gii'=>array(
@@ -25,19 +26,22 @@ return array(
     ),
 
 	'defaultController'=>'site',
-
+	'homeUrl'=>array('site/index'),
+	
 	// application components
 	'components'=>array(
-		/*'user'=>array(
+		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
-		),*/
+		),
 		/*'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',
 			'tablePrefix' => 'tbl_',
 		),*/
 		// uncomment the following to use a MySQL database
-		
+		'facebook' => array(
+         'class' => 'application.extensions.yiifacebook.facebook',
+      	),
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=manage-image',
 			'emulatePrepare' => true,
@@ -51,6 +55,7 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
+		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
