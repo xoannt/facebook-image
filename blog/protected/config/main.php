@@ -16,7 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-		'application.extensions.yiifacebook.*'
+		'application.extensions.YiiFacebook.*'
 	),
 	'modules'=>array(
         'gii'=>array(
@@ -30,18 +30,16 @@ return array(
 	
 	// application components
 	'components'=>array(
-		'user'=>array(
-			// enable cookie-based authentication
-			'allowAutoLogin'=>true,
-		),
+		'facebook' => array(
+         'class' => 'application.extensions.YiiFacebook.Facebook',
+         
+      	),
 		/*'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',
 			'tablePrefix' => 'tbl_',
 		),*/
 		// uncomment the following to use a MySQL database
-		'facebook' => array(
-         'class' => 'application.extensions.yiifacebook.facebook',
-      	),
+		
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=manage-image',
 			'emulatePrepare' => true,
@@ -83,5 +81,5 @@ return array(
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
-	/*'params'=>require(dirname(__FILE__).'/params.php'),*/
+	'params'=>require(dirname(__FILE__).'/params.php')
 );

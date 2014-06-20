@@ -1228,3 +1228,1448 @@ Stack trace:
 #8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
 REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:05:59 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:06:01 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:07:46 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:07:46 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:07:46 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:07:47 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:07:47 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:07:47 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:12:03 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:12:04 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:12:04 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:12:04 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:12:04 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:17:27 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.facebook.facebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.face...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 05:18:55 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.facebook.facebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.face...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 05:20:00 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.facebook.facebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.face...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 05:32:21 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:32:41 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:32:42 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(9): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:33:18 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:34:18 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(13): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:35:02 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 13 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:35:03 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 13 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:35:03 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 13 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:35:03 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 13 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:35:15 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 13 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:35:15 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 13 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\facebook\facebook.php:176)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/19 05:41:20 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.facebook.facebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.face...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(25): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/19 05:45:29 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.facebook.facebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.face...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(25): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/19 05:49:14 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.YiiFacebook.YiiFacebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.YiiF...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(25): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/19 05:51:14 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.YiiFacebook.YiiFacebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.YiiF...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(25): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/19 05:54:58 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.YiiFacebook.YiiFacebook" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\facebook-image\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\YiiBase.php(196): YiiBase::import('extensions.YiiF...', true)
+#1 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CModule->getComponent('facebook')
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(28): CModule->__get('facebook')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/19 06:17:54 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getCurrentUrl".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): CComponent->__call('getCurrentUrl', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): SiteController->getCurrentUrl()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 06:18:12 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getCurrentUrl".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): CComponent->__call('getCurrentUrl', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): SiteController->getCurrentUrl()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php
+---
+2014/06/19 10:29:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=92889f094cd29b0804c55d5ae95f99d5
+---
+2014/06/19 10:30:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=92889f094cd29b0804c55d5ae95f99d5
+---
+2014/06/19 10:31:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=d701e8801455f10741db4d2b4f684a19
+---
+2014/06/19 10:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=d701e8801455f10741db4d2b4f684a19
+---
+2014/06/19 10:32:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facebookcallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('facebookcallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/facebookcallback?auth_token=0176c0e34db642dfe1adc6ebe949d9a8
+---
+2014/06/19 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facebookcallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('facebookcallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/facebookcallback?auth_token=427d0dfcf3d4c14dad760339f1ea9fbf
+---
+2014/06/19 10:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "facebookcallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('facebookcallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/facebookcallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+---
+2014/06/19 10:37:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=b3ce588698f07c60992a51ddf0447ec9
+---
+2014/06/19 10:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=52a726aacc326a177b6da75b16538a71
+---
+2014/06/19 10:44:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+---
+2014/06/19 10:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?error_code=2&error_message=Xin%20l%E1%BB%97i%2C%20t%C3%ADnh%20n%C4%83ng%20n%C3%A0y%20kh%C3%B4ng%20kh%E1%BA%A3%20d%E1%BB%A5ng%20ngay%20b%C3%A2y%20gi%E1%BB%9D%3A%20%C4%90%C3%A3%20x%E1%BA%A3y%20ra%20l%E1%BB%97i%20khi%20x%E1%BB%AD%20l%C3%BD%20y%C3%AAu%20c%E1%BA%A7u%20n%C3%A0y.%20Vui%20l%C3%B2ng%20th%E1%BB%AD%20l%E1%BA%A1i%20sau.
+---
+2014/06/19 10:45:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+---
+2014/06/19 10:46:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=51521f3901bf8e4929d2fc39691dd266
+---
+2014/06/19 10:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?auth_token=d8145e2fbfc51f9b28fc92c6d6779a78
+---
+2014/06/19 10:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback
+---
+2014/06/19 10:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback
+---
+2014/06/19 10:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/login
+---
+2014/06/19 10:48:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FacebookCallback".' in C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('FacebookCallbac...')
+#1 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/facebook-image/blog/index.php/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+---
+2014/06/19 10:49:17 [error] [php] Undefined index: auth_token (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+2014/06/19 10:50:30 [error] [php] Undefined index: auth_token (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+2014/06/19 10:52:10 [error] [php] Undefined index: auth_token (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+2014/06/19 10:52:19 [error] [php] Undefined index: auth_token (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+2014/06/19 11:09:28 [error] [exception.CException] exception 'CException' with message 'YiiFacebook and its behaviors do not have a method or closure named "getResult".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): CComponent->__call('getResult', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): YiiFacebook->getResult()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?auth_token=62f14508d231f01b422643ff3fb8db06
+---
+2014/06/19 11:14:55 [error] [exception.CException] exception 'CException' with message 'YiiFacebook and its behaviors do not have a method or closure named "getResult".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): CComponent->__call('getResult', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): YiiFacebook->getResult()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?auth_token=62f14508d231f01b422643ff3fb8db06
+---
+2014/06/19 11:15:05 [error] [exception.CException] exception 'CException' with message 'YiiFacebook and its behaviors do not have a method or closure named "getResult".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): CComponent->__call('getResult', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): YiiFacebook->getResult()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?auth_token=8f53541f8f7ff39f86dc346dd3deb9ba
+---
+2014/06/19 11:15:39 [error] [exception.CException] exception 'CException' with message 'YiiFacebook and its behaviors do not have a method or closure named "getResult".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): CComponent->__call('getResult', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(44): YiiFacebook->getResult()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?auth_token=c631e9ff535c244eb9c4a72a62c36bc5
+---
+2014/06/19 11:21:50 [error] [php] Undefined index: auth_token (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?error=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
+2014/06/19 11:30:12 [error] [exception.CException] exception 'CException' with message 'YiiFacebook and its behaviors do not have a method or closure named "getResult".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(45): CComponent->__call('getResult', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(45): YiiFacebook->getResult()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?auth_token=d211460add309a0b12dd04af281dc66e
+---
+2014/06/19 11:31:07 [error] [exception.CException] exception 'CException' with message 'YiiFacebook and its behaviors do not have a method or closure named "getResult".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(46): CComponent->__call('getResult', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(46): YiiFacebook->getResult()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?auth_token=102804840a0aed0d60b37c1be101fd9d
+---
+2014/06/19 12:25:37 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(29): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/19 12:33:33 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(29): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/19 12:39:26 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/19 12:39:41 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/19 12:52:42 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(49): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/20 03:22:09 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "homeurl".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(57): CComponent->__call('homeurl', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(57): CWebApplication->homeurl()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login?code=AQA6FM4fvEofWbgz1hR1otSb9ltouytTjRQtzklbvncATZRFXh4s2VK7qTdxT2FuCcl0zLr1ect-aW4pZSkAvE75F2Dl1Aa2bZyTmyDImlLuIaBTjuTT1Ac-ERpkpj_iTgY9FA7h7bxjZzVuZt1pTM7yY90izdOHBf5lEdhQbx-n91THWr1GkIsOVr5xRUMymm4Ig0fwE7PGAGekPxBsgKOdj_FtofTbhfWAYxDRgVJF2djrfTjP3ztxOco5LJ0L-WC_7XWEMIijna9g1ZdXZzK12lkJ0Gno6jDuSDnqVpE6IZ6FkiCUoJ0teNatnXtccak&state=92862a3e172961c74b9107cda0ae5fcb
+---
+2014/06/20 04:00:14 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isGuest" is read only.' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:170
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\auth\CWebUser.php(160): CComponent->__set('isGuest', true)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(56): CWebUser->__set('isGuest', true)
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('facebook')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/facebook')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 04:04:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isGuest" is read only.' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:170
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\auth\CWebUser.php(160): CComponent->__set('isGuest', 1)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(63): CWebUser->__set('isGuest', 1)
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('facebook')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/facebook')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/showmember
+---
+2014/06/20 04:09:34 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\main.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\facebook-image\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): SiteController->render()
+#10 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:09:38 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\main.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\facebook-image\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(206): CContentDecorator->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(300): SiteController->endWidget()
+#5 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\column1.php(7): SiteController->endContent()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): SiteController->render()
+#10 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:10:20 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layout/main".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): CController->renderPartial('layout/main', Array, true)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(42): CController->render('layout/main', Array)
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('facebook')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/facebook')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 04:10:24 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "layout/main".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): CController->renderPartial('layout/main', Array, true)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(42): CController->render('layout/main', Array)
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('facebook')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/facebook')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 04:34:45 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\main.php(33): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#5 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#6 C:\xampp\htdocs\facebook-image\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(206): CContentDecorator->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(300): SiteController->endWidget()
+#9 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\column1.php(7): SiteController->endContent()
+#10 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#12 C:\xampp\htdocs\facebook-image\framework\web\CController.php(784): SiteController->renderFile()
+#13 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): SiteController->render()
+#14 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#17 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#18 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#19 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:37:22 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:22 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:23 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:23 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:23 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:23 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:23 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:39:24 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:40:23 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:13 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:14 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:14 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:32 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:33 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:33 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:43:33 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:48:29 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:48:29 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:48:29 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(11): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:48:40 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\main.php(33): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#5 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#6 C:\xampp\htdocs\facebook-image\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(206): CContentDecorator->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(300): SiteController->endWidget()
+#9 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\column1.php(7): SiteController->endContent()
+#10 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#12 C:\xampp\htdocs\facebook-image\framework\web\CController.php(784): SiteController->renderFile()
+#13 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(12): SiteController->render()
+#14 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#17 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#18 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#19 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:52:43 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(15): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:52:43 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(15): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:52:44 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(15): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 04:53:11 [error] [php] Missing argument 1 for Facebook::__construct(), called in C:\xampp\htdocs\facebook-image\framework\YiiBase.php on line 217 and defined (C:\xampp\htdocs\facebook-image\blog\protected\extensions\YiiFacebook\facebook.php:57)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\base\CModule.php(103): CWebApplication->getComponent()
+#1 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\main.php(33): CWebApplication->__get()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#5 C:\xampp\htdocs\facebook-image\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#6 C:\xampp\htdocs\facebook-image\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(206): CContentDecorator->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(300): SiteController->endWidget()
+#9 C:\xampp\htdocs\facebook-image\blog\protected\views\layouts\column1.php(7): SiteController->endContent()
+#10 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(126): require()
+#11 C:\xampp\htdocs\facebook-image\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#12 C:\xampp\htdocs\facebook-image\framework\web\CController.php(784): SiteController->renderFile()
+#13 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(16): SiteController->render()
+#14 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#17 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#18 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#19 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php
+2014/06/20 05:34:38 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(49): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:37:55 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:39:06 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:39:13 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:40:10 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:40:12 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:40:13 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:40:33 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:42:51 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:44:19 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(61): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:47:07 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(61): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:47:44 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:1)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(61): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:48:20 [error] [php] Undefined variable: user (C:\xampp\htdocs\facebook-image\blog\protected\views\site\login.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(61): SiteController->render()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebook()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 05:49:14 [error] [php] Undefined variable: login_url (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
