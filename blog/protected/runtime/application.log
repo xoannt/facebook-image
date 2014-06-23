@@ -2673,3 +2673,763 @@ Stack trace:
 #4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
 #5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
 REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+2014/06/20 07:02:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "facebook".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('facebook')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('facebook')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/facebook')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+---
+2014/06/20 09:07:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "facebook".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('facebook')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('facebook')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/facebook')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/facebook
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/20 09:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dhhehe".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('dhhehe')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('dhhehe')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dhhehe')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/dhhehe
+---
+2014/06/20 09:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "abss".' in C:\xampp\htdocs\facebook-image\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(270): CController->missingAction('abss')
+#1 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('abss')
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/abss')
+#3 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/abss
+---
+2014/06/20 09:59:24 [error] [php] Array to string conversion (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:34)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/20 10:15:03 [error] [php] Array to string conversion (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/index
+2014/06/20 10:38:27 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "homeUrl".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(32): CComponent->__call('homeUrl', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(32): CWebApplication->homeUrl()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/20 10:38:38 [error] [php] Array to string conversion (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:33)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/20 10:44:58 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "getHttpProtocol".' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(31): CComponent->__call('getHttpProtocol', Array)
+#1 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(31): SiteController->getHttpProtocol()
+#2 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#10 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php
+---
+2014/06/20 10:45:19 [error] [php] Undefined variable: redirect_uri (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:37)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/login
+2014/06/20 12:04:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:04:26 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->__construct()
+#3 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:09:55 [error] [php] Missing argument 1 for CActiveRecord::findByPk(), called in C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php on line 53 and defined (C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:1481)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+2014/06/20 12:19:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:19:16 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1485): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByPk('146566151034702...')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:25:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:25:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1485): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->findByPk('146566151034702...')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:28:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:28:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1485): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByPk('146566151034702...')
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:33:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:33:28 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:42:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:42:28 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:43:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:43:49 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:44:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:44:30 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:44:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:44:32 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:44:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:44:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:44:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/20 12:44:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1518): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->findByAttributes(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/20 12:45:57 [error] [php] Undefined variable: facebook_id (C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php:50)
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\facebook-image\blog\index.php(11): CWebApplication->run()
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+2014/06/20 12:46:58 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.facebook_id" is not defined.' in C:\xampp\htdocs\facebook-image\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\facebook-image\framework\db\schema\CDbCriteria.php(160): CComponent->__set('facebook_id', '146566151034702...')
+#1 C:\xampp\htdocs\facebook-image\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 C:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(50): CActiveRecord->find(Array)
+#4 C:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#5 C:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#9 C:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#10 C:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#12 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQDVzhAzI2AGKU_37QgpOe_U1rNutslpjQsEdjcvkduS1FSDmF26LU6KCetGWom8kz0WtkyG4KJ-BD9STNVg0yOkvE863EEvj6kr1eqAYu7Pfn2hUC6cqepjWieX4WqlXjSgdwZnexRGrvIz_YyH7Fl_2xdPVQn7H86QlJXW5g0c3VK85SknMpzESyRPUSM8L1hXE00Jt5tGqJrjYcSjaabw7YM1gEg5hCb8Hif53IcY8UfT7nYKyzlquVsY990iQV-r21_5Cs7RYxWjHEFQBHLDFHdSoUF5tBA0lXkx6PzAJScaVIjj0U698VXbWuGzn-I&state=41af4c11280b7d23613ab6c76c75a0cf
+HTTP_REFERER=http://localhost/facebook-image/blog/index.php/site/index
+---
+2014/06/21 03:54:29 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 03:54:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1428): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1517): CActiveRecord->getTableAlias(true)
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->findByAttributes(Array)
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:13:07 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:13:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->find(Array)
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:13:45 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:13:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->find(Array)
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:18:54 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:18:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->find('facebook_id =  ...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:22:05 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:22:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->find(Array)
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:40:47 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:40:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(55): CActiveRecord->find(Object(CDbCriteria))
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:42:11 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:42:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(55): CActiveRecord->find(Object(CDbCriteria))
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:43:41 [error] [exception.CDbException] SQLSTATE[HY000] [1049] Unknown database 'manage-image'
+2014/06/21 04:43:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php:388
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\xampp\htdocs\facebook-image\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\facebook-image\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->find()
+#8 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#9 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#13 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#14 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#16 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:46:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/21 04:46:30 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#4 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->find()
+#5 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#10 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#11 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#13 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:48:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/21 04:48:53 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#4 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(51): CActiveRecord->find()
+#5 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#10 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#11 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#13 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:49:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/21 04:49:46 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#4 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->find()
+#5 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#10 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#11 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#13 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:57:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/21 04:57:43 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 04:58:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/21 04:58:08 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAUsohzwgakWngkDOnYkj_9nVuhqFnP3y37LfRvGU4PlwQSLI4ETig2rDR7mh-9xxwFbGvskO8pbzzPZL6lwc2c2y1axQSaE0lDrWNulhrnmlvGFNTTtlwEG_gssgv5gJL0azJbXWc9enL5jasC4aLyAE7o2yeAL3qUZL-sMRZAcz_DCeU3JDcGeFfh5gtJjEeLXSgkx2RwuNbfH7KEZhFJ_HJ7U09R5CdWbpLqqxX_d_Pe1Nl4Sof81TcIzC596vRFyl4JsJLWR9z2x6Ove0IriiXXgSqRpSJNTA-sqG9UQsUrVLJSyxgXkepCc80ABTo&state=7c535962d4bf78043935b5d418a703bf
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:01:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage-image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2014/06/21 05:01:51 [error] [exception.CDbException] exception 'CDbException' with message 'The table "User" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:13:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage_image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/06/21 05:13:29 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:25:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage_image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/06/21 05:25:08 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:26:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage_image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/06/21 05:26:31 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:37:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage_image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/06/21 05:37:57 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:38:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage_image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/06/21 05:38:00 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---
+2014/06/21 05:38:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'manage_image.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+2014/06/21 05:38:02 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 D:\xampp\htdocs\facebook-image\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\facebook-image\blog\protected\controllers\SiteController.php(52): CActiveRecord->__construct()
+#3 D:\xampp\htdocs\facebook-image\framework\web\actions\CInlineAction.php(49): SiteController->actionFacebookCallback()
+#4 D:\xampp\htdocs\facebook-image\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\facebook-image\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\facebook-image\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(282): CController->run('FacebookCallbac...')
+#8 D:\xampp\htdocs\facebook-image\framework\web\CWebApplication.php(141): CWebApplication->runController('site/FacebookCa...')
+#9 D:\xampp\htdocs\facebook-image\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\facebook-image\blog\index.php(11): CApplication->run()
+#11 {main}
+REQUEST_URI=/facebook-image/blog/index.php/site/FacebookCallback?code=AQAH7_JFvXqanKtp9_NVahSM2WgK3p4UB7i4sS9uVjhhnvHiHA3t7DMD75WwBTjL6jOMC7fFMm_z-mO3nPtja40ptWt7GBMArl6j-eafGH8SHHWmhZHpr-AyETamPCHB58rzaZNYEYK6WYfhE9mdYmHZf7p4iYvVtHXMbcwY-g3TNb5a7H0rDLeNfm9yey6R8AoprMSVSkB7HBUbhgXIjk1YLHv89kyFSdq3l6y5RhczI_07g7FL-rC7cB2ftX_IqQm8sWIg4kp6N6XmBsy7BXGBBAvWap8toSySZ_i82_K6JUKczwL1smJGvaEtwkdUteU&state=c655ace5913b3c36b7cb4d6ba607b564
+HTTP_REFERER=http://localhost/facebook-image/blog/
+---

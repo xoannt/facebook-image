@@ -8,9 +8,12 @@ class User extends CActiveRecord
 	 * @var string $facebook_name
 	 * @var string $facebook_id
 	 * @var string $facebook_link
-	 * @var string $avatar
+	 * @var string avatar
 	 */
-
+	public $facebook_name;
+	public $facebook_id;
+	public $facebook_link;
+	public $avatar;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return CActiveRecord the static model class
@@ -19,4 +22,13 @@ class User extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return '{{user}}';
+	}
+	
 }

@@ -30,12 +30,8 @@
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('site/index')),
 				array('label'=>'List member', 'url'=>array('site/showmember')),
-				//array('label'=>'My image', 'url'=> array('site/showimage'), 'visible'=>!Yii::app()->request->cookies['user_name']->value),
-				//array('label'=>'Login', 'url'=>array('site/facebook'), 'visible'=>Yii::app()->user->isGuest),
-				//array('label'=>'Logout', 'url'=>array('site/facebook'), 'visible'=>!Yii::app()->user->isGuest)
-				
-				array('label'=>'Login', 'url'=>array('site/login'), 'visible'=>Yii::app()->user->isGuest)
-				
+				array('label'=>'Login', 'url'=>array('site/login'), 'visible'=> 1),
+				array('label'=>'Logout', 'url'=>array('site/logout'), 'visible'=> 1)
 			),
 		)); ?>
 	</div><!-- mainmenu -->

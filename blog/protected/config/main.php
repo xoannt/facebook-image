@@ -41,14 +41,28 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=manage-image',
+			'connectionString' => 'mysql:host=localhost;port=3306;dbname=manage_image',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
+			'enableParamLogging' => true,
 		),
-		
+		'log'=>array(
+		    'class'=>'CLogRouter',
+		    'routes'=>array( 
+		      array(
+		        'class'=>'CFileLogRoute',
+		        'levels'=>'trace,log',
+		        'categories' => 'system.db.CDbCommand',
+		        'logFile' => 'db.log',
+		      ),
+		), 
+		), 
+		'session' => array(
+            'class' => 'system.web.CDbHttpSession',
+        ),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
@@ -62,21 +76,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		'log'=>array(
-			'class'=>'CLogRouter',
-			'routes'=>array(
-				array(
-					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
-				),
-				// uncomment the following to show log messages on web pages
-				/*
-				array(
-					'class'=>'CWebLogRoute',
-				),
-				*/
-			),
-		),
+		
 	),
 
 	// application-level parameters that can be accessed
