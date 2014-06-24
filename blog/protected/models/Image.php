@@ -1,20 +1,16 @@
 <?php
 
-class User extends CActiveRecord
+class Image extends CActiveRecord
 {
 	/**
-	 * The followings are the available columns in table 'tbl_user':
+	 * The followings are the available columns in table 'tbl_image':
 	 * @var integer $id
-	 * @var string $facebook_name
+	 * @var string $link_image
 	 * @var string $facebook_id
-	 * @var string $facebook_link
-	 * @var string avatar
 	 */
-	public $facebook_name;
-	public $access_token;
+	public $id;
+	public $link_image;
 	public $facebook_id;
-	public $facebook_link;
-	public $avatar;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return CActiveRecord the static model class
@@ -29,7 +25,8 @@ class User extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return '{{user}}';
+		return '{{image}}';
 	}
 	
 }
+

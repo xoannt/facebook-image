@@ -24,7 +24,6 @@
 	<div id="header">
 		<div id="logo"><?php echo CHtml::encode('Facebook-image'); ?></div>
 	</div><!-- header -->
-
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
@@ -35,7 +34,7 @@
 			),
 		)); ?>
 	</div><!-- mainmenu -->
-
+	
 	<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 		'links'=>$this->breadcrumbs,
 	)); ?><!-- breadcrumbs -->

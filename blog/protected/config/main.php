@@ -34,6 +34,10 @@ return array(
          'class' => 'application.extensions.YiiFacebook.Facebook',
          
       	),
+      	'session' => array(
+            'class' => 'system.web.CDbHttpSession',
+        ),
+      	
 		/*'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',
 			'tablePrefix' => 'tbl_',
@@ -60,9 +64,7 @@ return array(
 		      ),
 		), 
 		), 
-		'session' => array(
-            'class' => 'system.web.CDbHttpSession',
-        ),
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
