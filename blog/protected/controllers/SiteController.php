@@ -44,13 +44,13 @@ class SiteController extends Controller
 			$this->render('showmember', array("empty_member" => $empty_member));
 		}
 	}
-	public function actionShowImage($facebook_id = '', $accesstk = '')
+	public function actionShowImage($facebook_id = '')
 	{
-		if(isset($facebook_id) && isset($accesstk))
+		if(isset($facebook_id))
 		{
 			$model = Image::model()->findAll(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
-			//$model = Image::model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
-			$user = User::model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
+		    $user = User::model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
+			//Yii::app()->session['myimg'] = $user->facebook_name;
 			if($model !== NULL)
 			{
 				$this->render('showimage', array("list_photo" => $model, "user" => $user));
@@ -107,7 +107,7 @@ class SiteController extends Controller
 				
 				$info = $facebook->api('/me');
 				Yii::app()->session['fusername'] = $info['name'];
-				
+				Yii::app()->session['fid'] = $user;
 				// check user existed
 				if($check === null)
 				{
@@ -186,8 +186,69 @@ class SiteController extends Controller
 		$facebook = $this->getFaceBook();
 		$accesstk = $facebook->getAccessToken();
 		unset(Yii::app()->session['fusername']);
+		unset(Yii::app()->session['fid']);
 		$logout_url = $facebook->getLogoutUrl(array('next' => Yii::app()->request->getBaseUrl(true),'access_token' => $accesstk));
 		$this->redirect($logout_url);
 	}
+	
+	public function actionRating($image_id = '', $fuser_id = '')
+    {
+        $aResponse['error'] = false;
+        $aResponse['message'] = '';
+		if(isset($_GET['image_id'])&&isset($_GET['fuser_id']))
+		{
+			$image_id = $_GET['image_id'];
+			$fuser_id = $_GET['fuser_id'];
+		
+		
+	        if(isset($_POST['action']))
+	        {
+	                if(htmlentities($_POST['action'], ENT_QUOTES, 'UTF-8') == 'rating')
+	                {
+	                        $rate = floatval($_POST['rate']);
+							$date = getdate();
+        					$date_rating = $date['year'] . "-" . $date['mon'] . "-" . $date['mday'];
+	                        // YOUR MYSQL REQUEST HERE or other thing :)
+	                        $model_review = new Review;
+							$model_review->image_id = $image_id;
+							$model_review->user_id = $fuser_id;
+							$model_review->rating = $rate;
+							$model_review->date_rating = $date_rating;
+							$model_review->save();
+							// rating avg
+								 
+							
+							
+							// if request successful
+	                        $success = true;
+	                        // else $success = false;
+	                        // json datas send to the js file
+	                        if($success)
+	                        {
+	                                $aResponse['message'] = 'Your rate has been successfuly recorded. Thanks for your rate :)';
+	                                echo json_encode($aResponse);
+	                        }
+	                        else
+	                        {
+	                                $aResponse['error'] = true;
+	                                $aResponse['message'] = 'An error occured during the request. Please retry';
+	                                
+	                        }
+	                }
+	                else
+	                {
+	                        $aResponse['error'] = true;
+	                        $aResponse['message'] = '"action" post data not equal to \'rating\'';
+	                        
+	                }
+	        }
+	        else
+	        {
+	                $aResponse['error'] = true;
+	                $aResponse['message'] = '$_POST[\'action\'] not found';
+	                
+	        }
+        }
+    }
 		
 }

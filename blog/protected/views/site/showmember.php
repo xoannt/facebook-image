@@ -7,8 +7,8 @@
 	  	echo "<p>Welcome ".$fusername."!</p>";
 	  }
 	  else {
-	  	echo ''
-;	  }
+	  	echo '';	 
+      }
 ?>
 <?php
 foreach($list_member as $member)
@@ -21,7 +21,7 @@ foreach($list_member as $member)
 		<p>
 		   <a href="<?php echo $member['facebook_link'];?>">Facebook</a>
 		   <span style="color: red;">|</span>
-		   <a href="<?php echo Yii::app()->request->baseUrl;?>/index.php/site/showimage?facebook_id=<?php echo $member['facebook_id'];?>&accesstk=<?php echo $member['access_token']; ?>">Rating Image</a>
+		   <a href="<?php echo Yii::app()->request->baseUrl;?>/index.php/site/showimage?facebook_id=<?php echo $member['facebook_id'];?>">Rating Image</a>
 		</p>
 	</div>
 	<div style="clear: both; height: 20px;"></div>

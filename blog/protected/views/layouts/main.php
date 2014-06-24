@@ -5,24 +5,29 @@
 	<meta name="language" content="en" />
 
 	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/windy.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style1.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
+	<?php $baseurl = Yii::app()->request->baseUrl;?>
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/windy.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/style1.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/screen.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/print.css" media="print" />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	
 	<!-- Show image-->
 	
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.8.0.js"></script>
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/modernizr.custom.79639.js"></script>
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.windy.js"></script>
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/slider.js"></script>
+	<script type="text/javascript" src="<?php echo $baseurl; ?>/js/jquery-1.8.0.js"></script>
+	<script type="text/javascript" src="<?php echo $baseurl; ?>/js/modernizr.custom.79639.js"></script>
+	<script type="text/javascript" src="<?php echo $baseurl; ?>/js/jquery-ui-1.8.23.custom.min.js"></script>
+	<script type="text/javascript" src="<?php echo $baseurl; ?>/js/jquery.windy.js"></script>
+	<script type="text/javascript" src="<?php echo $baseurl; ?>/js/slider.js"></script>
+	
+	<!-- jRating CSS -->
+    <link rel="stylesheet" type="text/css" href="<?php echo $baseurl;?>/css/jRating.jquery.css"/>
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>/css/form.css" />
+	<script type="text/javascript" src="<?php echo $baseurl;?>/js/jRating.jquery.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -49,7 +54,6 @@
 	)); ?><!-- breadcrumbs -->
 
 	<?php echo $content; ?>
-<div class="cl"></div>
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
 		All Rights Reserved.<br/>
