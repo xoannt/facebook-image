@@ -72,6 +72,7 @@ class SiteController extends Controller
 			$base_url = Yii::app()->request->getBaseUrl(true);
 			$redirect_uri = $base_url."/index.php/site/FacebookCallback";
 			$login_url = $facebook->getLoginUrl(array(
+									'scope' => 'publish_stream,user_photos',
 									'display'=>'popup',
 									'redirect_uri' => $redirect_uri));
 			$this->redirect($login_url); 
@@ -107,9 +108,9 @@ class SiteController extends Controller
 				
 				// source: https://developers.facebook.com/docs/graph-api/reference/v2.0/user/photos/
 				$u = $data = $facebook->api('/me/photos/uploaded');
+			   // $photos = $facebook->api($user.'/photos', 'get', array('access_token'=>$accesstk)); 
 				echo "<pre>";
 				print_r($u);
-				
 				// chỉ lấy được toàn bộ ảnh của người tạo ra app
 				//người dùng đăng nhập khác chỉ lấy được thông tin cơ bản
 				
