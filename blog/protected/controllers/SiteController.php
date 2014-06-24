@@ -21,7 +21,7 @@ class SiteController extends Controller
 	    	if(Yii::app()->request->isAjaxRequest)
 	    		echo $error['message'];
 	    	else
-	        	$this->render('error', $error);
+	        	$this->render('error', array("error" => $error));
 	    }
 	}
 	
@@ -77,24 +77,6 @@ class SiteController extends Controller
 									'redirect_uri' => $redirect_uri));
 			$this->redirect($login_url); 
 	}
-	
-	
-	protected function all_photos($accesstk = '')
-	{
-		$facebook = $this->getFaceBook();
-		$photos = array();
-		if(isset($accesstk)&& $accesstk!= '')
-		{
-			$data = $facebook->api('/me/photos/uploaded');
-			foreach($data['data'] as $photo)
-			{
-				$photos[] = $photo['source'];
-			}
-		}
-        return $photos;
-	}
-	
-	
 	public function actionFacebookCallback()
 	{
 			$facebook = $this->getFaceBook();
@@ -105,18 +87,24 @@ class SiteController extends Controller
 				
 				$check = $model_user->model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$user)));
 				$accesstk = $facebook->getAccessToken();
-				
+				$data = $facebook->api('/me/photos/uploaded');
+				$list_photo = array();
+				foreach($data['data'] as $photo)
+				{
+					$list_photo[] = $photo['source'];
+				}
+			
 				// source: https://developers.facebook.com/docs/graph-api/reference/v2.0/user/photos/
-				$u = $data = $facebook->api('/me/photos/uploaded');
+				//$u = $data = $facebook->api('/me/photos/uploaded');
 			   // $photos = $facebook->api($user.'/photos', 'get', array('access_token'=>$accesstk)); 
-				echo "<pre>";
-				print_r($u);
+				//echo "<pre>";
+				//print_r($u);
 				// chỉ lấy được toàn bộ ảnh của người tạo ra app
 				//người dùng đăng nhập khác chỉ lấy được thông tin cơ bản
 				
-			}
-			/*
+			
 				// session facebook id
+				
 				$info = $facebook->api('/me');
 				Yii::app()->session['fusername'] = $info['name'];
 				
@@ -159,9 +147,11 @@ class SiteController extends Controller
 						$arr_photo_db[] = $pt->link_image;
 					}
 					// check image existed
+					
+					// save photo new
 					foreach($list_photo as $photo)
 					{
-						// save photo new
+						
 					   if(!in_array($photo, $arr_photo_db))
 						{
 							$model_image = new Image;
@@ -170,13 +160,24 @@ class SiteController extends Controller
 							$model_image->save();
 						}
 					}
+					// delete image in db, which facebook deleled
+					foreach($arr_photo_db as $photodb)
+					{
+					   if(!in_array($photodb, $list_photo))
+						{
+							
+							Image::model()->deleteAll(array('condition'=>'link_image=:link_image','params'=>array('link_image'=>$photodb)));
+							
+						}
+					}
+					
 					$this->redirect(Yii::app()->homeUrl);
 				} 
 			} 
 			else 
 			{
 				$this->redirect(Yii::app()->homeUrl);
-			} */
+			} 
 }
 
 
