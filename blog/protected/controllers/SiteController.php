@@ -85,14 +85,6 @@ class SiteController extends Controller
 			$this->redirect(Yii::app()->homeUrl); 
 		}
 	}
-	public function actionDetailImg($photo_id = '')
-	{
-		if(isset($photo_id))
-		{
-			$photo = Image::model()->findByPk($photo_id);
-			$this->render('detailimg', array("photo"=>$photo));
-		}
-	}
 	
 	// sr: https://github.com/facebook/facebook-php-sdk
 	public function actionLogin()
