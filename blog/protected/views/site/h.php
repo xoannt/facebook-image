@@ -19,7 +19,7 @@ foreach($list_photo as $photo)
 		
 	<p><?php if($fuser_id && $fuser_id!= $user->facebook_id) { ?>
 		<div class="jRating" data-average="<?php echo $avgRate;/*$rating_avg;*/?>"></div>
-    	<span class="cd_rating">Click image to Rating</span>
+    	
 	<?php } 
 	elseif($fuser_id == $user->facebook_id) 
 	{
@@ -43,14 +43,9 @@ foreach($list_photo as $photo)
 </div>
 <script>
                                 $(document).ready(function () {
-                                	
                                 	var user_id = <?php echo $fuser_id;?>;
+                                	var image_id = $('#photo').attr('alt');
                                 	
-                                	$('#wi-el li img').click(function() {
-                                		$('#wi-el li img').removeClass('selected');
-  										$(this).addClass('selected');
-  										var image_id = $('.selected').attr('alt');
-  										$('.jRating').show();
                                     $('.jRating').jRating({
                                          step : true, 
                                          length : 10, 
@@ -59,11 +54,8 @@ foreach($list_photo as $photo)
                                          phpPath : '<?php echo $baseurl;?>/index.php/site/rating?image_id='+image_id+'&fuser_id='+user_id,
                                          onSuccess : function(){
                                          	alert("thanks you ratted");
-                                    
+                                         	alert(image_id);
 										  }
                                 });
-                                		
-                                	});
-                                	
                                 });
 </script>	

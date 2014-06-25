@@ -3,18 +3,21 @@ $(document).ready(function() {
         windy = $el.windy(),
         allownavnext = false,
         allownavprev = false;
-    $( '#nav-prev' ).on( 'mousedown', function( event ) {
+     $( '#nav-prev' ).on( 'mousedown', function( event ) {
         allownavprev = true;
-        navprev();     
-        } ).on( 'mouseup mouseleave', function( event ) {
+        navprev();
+        $('.jRating').hide();     
+         } ).on( 'mouseup mouseleave', function( event ) {
         allownavprev = false;      
         } );
     $( '#nav-next' ).on( 'mousedown', function( event ) {
         allownavnext = true;
-        navnext();     
+        navnext(); 
+        $('.jRating').hide();   
         } ).on( 'mouseup mouseleave', function( event ) {
         allownavnext = false;          
         } );
+        
     function navnext() {
         if( allownavnext ) {
             windy.next();

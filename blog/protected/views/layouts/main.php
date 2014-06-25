@@ -39,12 +39,24 @@
 		<div id="logo"><?php echo CHtml::encode('Facebook-image'); ?></div>
 	</div><!-- header -->
 	<div id="mainmenu">
+		<?php 
+		  $visible_guest = 1;
+		  $visible_mb = 0;
+		  $session = new CHttpSession;
+		  $session->open();
+		  $fuser_id = $session['fid'];
+		  if(isset($fuser_id) && $fuser_id!='')
+		  {
+		  	$visible_mb = 1;
+			$visible_guest = 0;
+		  }
+		?>
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Home', 'url'=>array('site/index')),
 				array('label'=>'List member', 'url'=>array('site/showmember')),
-				array('label'=>'Login', 'url'=>array('site/login'), 'visible'=> 1),
-				array('label'=>'Logout', 'url'=>array('site/logout'), 'visible'=> 1)
+				array('label'=>'Login', 'url'=>array('site/login'), 'visible'=> $visible_guest),
+				array('label'=>'Logout', 'url'=>array('site/logout'), 'visible'=> $visible_mb)
 			),
 		)); ?>
 	</div><!-- mainmenu -->

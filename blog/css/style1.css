@@ -37,6 +37,7 @@
 .windy-demo img {
 	height: 80%;
 	width: 100%;
+	cursor: pointer;
 }
 .windy-demo h4 {
 	color: #666;
@@ -54,7 +55,10 @@
 	padding: 0;
 	margin: 0;
 }
-
+.windy-demo span.cd_rating {
+	color: #008000;
+	text-decoration: underline;
+}
 .windy-demo ul.wi-container li {
 	border-radius: 5px;
 	-webkit-user-select: none;
@@ -68,6 +72,7 @@
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
+	
 	box-shadow: 0 0 1px 1px rgba(255,255,255,0.6), 0 0 0 4px rgba(0,0,0,0.1);
 }
 

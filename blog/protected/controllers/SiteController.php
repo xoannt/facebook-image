@@ -28,7 +28,24 @@ class SiteController extends Controller
 	
 	public function actionIndex()
 	{
-		$this->render('index');
+		$criteria = new CDbCriteria();
+		$criteria->alias = 'tbl_review';
+		$criteria->select = array('tbl_image.facebook_id', 'tbl_user.facebook_name', 'link_image', 'sum(image_id) as total_rt');
+		$criteria->join = "INNER JOIN tbl_image 
+									           ON  tbl_image.id = tbl_review.image_id
+							INNER JOIN tbl_user 
+									           ON  tbl_user.facebook_id = tbl_image.facebook_id";
+		
+		$criteria->group = 'tbl_review.image_id';
+		$criteria->order = 'total_rt DESC';
+		$criteria->limit = 5; 
+		$criteria->with = '';
+		$model = Review::model()->together()->findAll($criteria);
+		echo "<pre>";
+		print_r($model);
+		/* */
+        
+		//$this->render('index', array("list_rating"=>$model));
 	}
 	
 	
@@ -48,12 +65,16 @@ class SiteController extends Controller
 	{
 		if(isset($facebook_id))
 		{
-			$model = Image::model()->findAll(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
-		    $user = User::model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
-			//Yii::app()->session['myimg'] = $user->facebook_name;
+			$user = User::model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$facebook_id)));
+			$criteria = new CDbCriteria();
+			$criteria->condition = 'facebook_id=:facebook_id';
+			$criteria->params = array('facebook_id'=>$facebook_id);
+			$model = Image::model()->findAll($criteria);
+		   
 			if($model !== NULL)
 			{
-				$this->render('showimage', array("list_photo" => $model, "user" => $user));
+				$this->render('showimage', array("list_photo" => $model, 
+				"user" => $user));
 			}
 			else {
 				$empty_photo = "No photo";
@@ -64,6 +85,14 @@ class SiteController extends Controller
 			$this->redirect(Yii::app()->homeUrl); 
 		}
 	}
+	public function actionDetailImg($photo_id = '')
+	{
+		if(isset($photo_id))
+		{
+			$photo = Image::model()->findByPk($photo_id);
+			$this->render('detailimg', array("photo"=>$photo));
+		}
+	}
 	
 	// sr: https://github.com/facebook/facebook-php-sdk
 	public function actionLogin()
@@ -72,7 +101,7 @@ class SiteController extends Controller
 			$base_url = Yii::app()->request->getBaseUrl(true);
 			$redirect_uri = $base_url."/index.php/site/FacebookCallback";
 			$login_url = $facebook->getLoginUrl(array(
-									'scope' => 'publish_stream,user_photos',
+									'scope' => 'publish_actions,publish_stream,user_photos,user_likes,email',
 									'display'=>'popup',
 									'redirect_uri' => $redirect_uri));
 			$this->redirect($login_url); 
@@ -87,6 +116,10 @@ class SiteController extends Controller
 				
 				$check = $model_user->model()->find(array('condition'=>'facebook_id=:facebook_id','params'=>array('facebook_id'=>$user)));
 				$accesstk = $facebook->getAccessToken();
+				// session facebook id
+				$info = $facebook->api('/me');
+				Yii::app()->session['fusername'] = $info['name'];
+				Yii::app()->session['fid'] = $user;
 				$data = $facebook->api('/me/photos/uploaded');
 				$list_photo = array();
 				foreach($data['data'] as $photo)
@@ -103,11 +136,7 @@ class SiteController extends Controller
 				//người dùng đăng nhập khác chỉ lấy được thông tin cơ bản
 				
 			
-				// session facebook id
 				
-				$info = $facebook->api('/me');
-				Yii::app()->session['fusername'] = $info['name'];
-				Yii::app()->session['fid'] = $user;
 				// check user existed
 				if($check === null)
 				{
@@ -183,22 +212,25 @@ class SiteController extends Controller
 
 	public function actionLogout()
 	{
-		$facebook = $this->getFaceBook();
-		$accesstk = $facebook->getAccessToken();
-		unset(Yii::app()->session['fusername']);
-		unset(Yii::app()->session['fid']);
-		$logout_url = $facebook->getLogoutUrl(array('next' => Yii::app()->request->getBaseUrl(true),'access_token' => $accesstk));
-		$this->redirect($logout_url);
+		
+			$facebook = $this->getFaceBook();
+			$accesstk = $facebook->getAccessToken();
+			unset(Yii::app()->session['fusername']);
+			unset(Yii::app()->session['fid']);
+			$logout_url = $facebook->getLogoutUrl(array('next' => Yii::app()->request->getBaseUrl(true),'access_token' => $accesstk));
+			$this->redirect($logout_url);
+		
+		
 	}
 	
 	public function actionRating($image_id = '', $fuser_id = '')
     {
         $aResponse['error'] = false;
         $aResponse['message'] = '';
-		if(isset($_GET['image_id'])&&isset($_GET['fuser_id']))
+		if(isset($image_id)&&isset($fuser_id))
 		{
-			$image_id = $_GET['image_id'];
-			$fuser_id = $_GET['fuser_id'];
+			//$image_id = $_GET['image_id'];
+			//$fuser_id = $_GET['fuser_id'];
 		
 		
 	        if(isset($_POST['action']))
@@ -216,8 +248,6 @@ class SiteController extends Controller
 							$model_review->date_rating = $date_rating;
 							$model_review->save();
 							// rating avg
-								 
-							
 							
 							// if request successful
 	                        $success = true;
