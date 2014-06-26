@@ -57,8 +57,9 @@ foreach($list_photo as $photo)
                                          type : 'big',
                                          rateMax: 10,
                                          phpPath : '<?php echo $baseurl;?>/index.php/site/rating?image_id='+image_id+'&fuser_id='+user_id,
-                                         onSuccess : function(){
-                                         	alert("thanks you ratted");
+                                         onSuccess : function(ele, rate, response){
+                                
+                                         	alert(response.server);
                                     
 										  }
                                 });

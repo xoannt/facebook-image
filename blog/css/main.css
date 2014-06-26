@@ -265,3 +265,46 @@ div.breadcrumbs span
 {
 	color:red;
 }
+
+
+/* style content*/
+
+#list_rate
+{
+	margin: auto 50px;
+}
+#list_rate ul li {
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+}
+#list_rate ul li img
+{
+	width: 165px;
+	height: 180px;
+}
+#list_rate ul li p {
+	margin: 5px;
+}
+#list_rate ul li .namefb {
+	text-decoration: none;
+}
+#list_rate ul li .count_rate
+{
+	color: #F1911F;
+	
+}
+#list_rate ul li .avg_rate
+{
+	color: #006600;
+}
+
+.list_member {
+	margin-top: 20px;
+}
+
+.list_member li {
+	list-style: none;
+	float: left;
+	padding: 10px 20px;
+}

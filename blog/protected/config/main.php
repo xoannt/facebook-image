@@ -37,7 +37,12 @@ return array(
       	'session' => array(
             'class' => 'system.web.CDbHttpSession',
         ),
-      	
+      	'input'=>array(   
+            'class'         => 'CmsInput',
+            'cleanPost'     => true,
+            'cleanGet'      => true,
+            'cleanMethod'   => 'stripClean',   
+        ),
 		/*'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',
 			'tablePrefix' => 'tbl_',

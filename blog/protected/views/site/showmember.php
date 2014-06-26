@@ -10,10 +10,12 @@
 	  	echo '';	 
       }
 ?>
+<ul class="list_member">
 <?php
 foreach($list_member as $member)
 {
-?>	<div style="float: left; margin-right: 20px;">
+?>	<li>
+	<div>
 		<img src="<?php echo $member['avatar'];?>" width="50" height="50"  style = "border: 1px solid #CCC; box-shadow: 3px 3px 3px #CCC"/>
 	</div>
 	<div>
@@ -24,8 +26,9 @@ foreach($list_member as $member)
 		   <a href="<?php echo Yii::app()->request->baseUrl;?>/index.php/site/showimage?facebook_id=<?php echo $member['facebook_id'];?>">Rating Image</a>
 		</p>
 	</div>
-	<div style="clear: both; height: 20px;"></div>
+	</li>
 <?php
 }
 echo (isset($empty_member)&&$empty_member!='')?$empty_member:'';
 ?>
+<ul>

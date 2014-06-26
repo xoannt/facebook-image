@@ -30,28 +30,24 @@ class SiteController extends Controller
 	{
 		$criteria = new CDbCriteria();
 		$criteria->alias = 'tbl_review';
-		$criteria->select = array('tbl_image.facebook_id', 'tbl_user.facebook_name', 'link_image', 'sum(image_id) as total_rt');
+		$criteria->select = array('tbl_image.facebook_id as face_id', 'tbl_review.image_id', 'tbl_user.facebook_name', 'link_image', 'count(image_id) as count_rate');
 		$criteria->join = "INNER JOIN tbl_image 
 									           ON  tbl_image.id = tbl_review.image_id
 							INNER JOIN tbl_user 
 									           ON  tbl_user.facebook_id = tbl_image.facebook_id";
 		
 		$criteria->group = 'tbl_review.image_id';
-		$criteria->order = 'total_rt DESC';
-		$criteria->limit = 5; 
-		$criteria->with = '';
+		$criteria->order = 'count_rate DESC';
+		$criteria->limit = Yii::app()->params['limit_rate'];
 		$model = Review::model()->together()->findAll($criteria);
-		echo "<pre>";
-		print_r($model);
-		/* */
-        
-		//$this->render('index', array("list_rating"=>$model));
+		
+		$this->render('index', array('repost_rate' => $model));
 	}
 	
 	
 	public function actionShowMember()
 	{
-		$model = User::model()->findAll(array('order' => 'id DESC'));	
+		$model = User::model()->findAll(array('order' => 'id DESC'));
 		if($model !== NULL)
 		{
 			$this->render('showmember', array("list_member" => $model));
@@ -61,6 +57,8 @@ class SiteController extends Controller
 			$this->render('showmember', array("empty_member" => $empty_member));
 		}
 	}
+	
+	
 	public function actionShowImage($facebook_id = '')
 	{
 		if(isset($facebook_id))
@@ -221,24 +219,40 @@ class SiteController extends Controller
         $aResponse['message'] = '';
 		if(isset($image_id)&&isset($fuser_id))
 		{
-			//$image_id = $_GET['image_id'];
-			//$fuser_id = $_GET['fuser_id'];
-		
-		
-	        if(isset($_POST['action']))
+		    if(isset($_POST['action']))
 	        {
 	                if(htmlentities($_POST['action'], ENT_QUOTES, 'UTF-8') == 'rating')
 	                {
 	                        $rate = floatval($_POST['rate']);
-							$date = getdate();
-        					$date_rating = $date['year'] . "-" . $date['mon'] . "-" . $date['mday'];
+							
+        					$date_rating = date("Y-m-d");
 	                        // YOUR MYSQL REQUEST HERE or other thing :)
-	                        $model_review = new Review;
-							$model_review->image_id = $image_id;
-							$model_review->user_id = $fuser_id;
-							$model_review->rating = $rate;
-							$model_review->date_rating = $date_rating;
-							$model_review->save();
+	                        $flag = 1;
+							$model_review = new Review;
+							$data = $model_review->model()->findAll();
+							foreach($data as $review)
+							{
+								if(($review->date_rating == $date_rating)&&($review->user_id == $fuser_id)&&($review->image_id == $image_id))
+								{
+									
+									$flag = 0; break;
+								}
+							}
+							if($flag == 1)
+							{
+								
+								$model_review->image_id = $image_id;
+								$model_review->user_id = $fuser_id;
+								$model_review->rating = $rate;
+								$model_review->date_rating = $date_rating;
+								$model_review->save();
+								$aResponse['server'] = 'Thanks for your rate';
+	                           
+							}
+							else {
+								    $aResponse['server'] = 'You have ratted today';
+	                            	
+							}
 							// rating avg
 							
 							// if request successful

@@ -15,6 +15,10 @@ class Review extends CActiveRecord
 	public $rating;
 	public $date_rating;
 	public $avgRate;
+	public $count_rate;
+	public $facebook_name;
+	public $link_image;
+	public $face_id;
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @return CActiveRecord the static model class
