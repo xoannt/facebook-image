@@ -90,6 +90,8 @@ class SiteController extends Controller
 			$facebook = $this->getFaceBook();
 			$base_url = Yii::app()->request->getBaseUrl(true);
 			$redirect_uri = $base_url."/index.php/site/FacebookCallback";
+			// https://developers.facebook.com/docs/apps/review/login
+			//https://developers.facebook.com/docs/facebook-login/permissions/v2.0
 			$login_url = $facebook->getLoginUrl(array(
 									'scope' => 'publish_actions,publish_stream,user_photos,user_likes,email',
 									'display'=>'popup',
