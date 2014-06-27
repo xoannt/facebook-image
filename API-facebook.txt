@@ -1,3 +1,5 @@
 Api:
 Get photo user login 
 https://developers.facebook.com/docs/apps/review/login
+Privacy Policy
+http://wp4fb.com/how-to-add-a-privacy-policy-to-your-apps/
